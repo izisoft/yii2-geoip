@@ -1,17 +1,17 @@
 <?php
 
-namespace dpodium\yii2\geoip\components;
+namespace izi\geoip\components;
 
-use dpodium\yii2\geoip\models\Location;
+use izi\geoip\models\Location;
 use GeoIp2\Database\Reader;
 use Yii;
 use yii\base\Component;
 
 class CGeoIP extends Component {
     
-    public $cityDbPath = '@vendor/dpodium/yii2-geoip-city-db/db/GeoLite2-City.mmdb';
+    public $cityDbPath = '@vendor/izisoft/yii2-geoip/components/db/GeoLite2-City.dat';
     
-    public $countryDbPath = '@vendor/dpodium/yii2-geoip/components/db/GeoLite2-Country.mmdb';
+    public $countryDbPath = '@vendor/izisoft/yii2-geoip/components/db/GeoLite2-Country.dat';
     
     protected $previous_exception = null;
     
