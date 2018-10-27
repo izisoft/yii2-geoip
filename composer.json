@@ -21,7 +21,7 @@
 			"role" : "Developer"
 		}
 	],
-	"minimum-stability" : "dev",
+	"minimum-stability" : "stable",
 	"support" : {
 		"source" : "https://github.com/izisoft/yii2-geoip",
 		"issues" : "https://github.com/izisoft/yii2-geoip/issues",
