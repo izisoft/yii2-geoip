@@ -1,6 +1,6 @@
 <?php
 
-namespace dpodium\yii2\geoip\models;
+namespace izisoft\yii2\geoip\models;
 
 class Location extends \yii\base\Model {
     
