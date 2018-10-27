@@ -37,7 +37,7 @@ return [
     'components' => [
     ...
         'geoip' => [
-                   'class' => 'dpodium\yii2\geoip\components\CGeoIP',
+                   'class' => 'izi\geoip\components\CGeoIP',
                ],
         ...
     ],
