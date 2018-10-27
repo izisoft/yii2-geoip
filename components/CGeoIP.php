@@ -9,9 +9,9 @@ use yii\base\Component;
 
 class CGeoIP extends Component {
     
-    public $cityDbPath = '@vendor/izisoft/yii2-geoip/components/db/GeoLite2-City.dat';
+    public $cityDbPath = '@vendor/izisoft/yii2-geoip/components/db/GeoLiteCity.dat';
     
-    public $countryDbPath = '@vendor/izisoft/yii2-geoip/components/db/GeoLite2-Country.dat';
+    public $countryDbPath = '@vendor/izisoft/yii2-geoip/components/db/GeoLiteIP.dat';
     
     protected $previous_exception = null;
     
