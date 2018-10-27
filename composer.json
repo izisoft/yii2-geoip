@@ -1,28 +1,39 @@
 {
-    "name": "izisoft/yii2-geoip",
-    "description": "Yii2 Component to allow for easy usage of the MaxMind Free dbs.",
-    "type": "yii2-extension",
-    "keywords": ["yii2","extension","geoip","maxmind"],
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "A Tin",
-            "email": "zinzinx8@gmail.com",
-            "homepage": "https://iziweb.net"
-        }
-    ],
-    "minimum-stability": "stable",
-    "support": {
-        "source": "https://github.com/dpodium/yii2-geoip",
-        "issues": "https://github.com/dpodium/yii2-geoip/issues"
-    },
-    "require": {
-        "yiisoft/yii2": "2.0.*",
-        "geoip2/geoip2": "~2.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "dpodium\\yii2\\geoip\\": ""
-        }
-    }
+	"name" : "izisoft/yii2-geoip",
+	"description" : "Yii2 Component to allow for easy usage of the MaxMind Free dbs.",
+	"type" : "yii2-extension",
+	"keywords" : [
+		"yii2",
+		"extension",
+		"geoip",
+		"maxmind"
+	],
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "A Tin",
+			"email" : "zinzinx8@gmail.com",
+			"homepage" : "https://iziweb.net"
+		}, {
+			"name" : "A Xin",
+			"email" : "vantruong1898@gmail.com",
+			"homepage" : "https://iziweb.vn",
+			"role" : "Dev"
+		}
+	],
+	"minimum-stability" : "dev",
+	"support" : {
+		"source" : "https://github.com/izisoft/yii2-geoip",
+		"issues" : "https://github.com/izisoft/yii2-geoip/issues",
+		"email" : "zinzinx8@gmail.com"
+	},
+	"require" : {
+		"yiisoft/yii2" : "2.0.*",
+		"geoip2/geoip2" : "~2.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"izi\\geoip\\" : ""
+		}
+	},
+	"homepage" : "https://iziweb.net"
 }

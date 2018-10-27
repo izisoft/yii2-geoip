@@ -12,13 +12,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require izisoft/yii2-geoip "~2.0.0"
+php composer.phar require dpodium/yii2-geoip "~2.0.0"
 ```
 
 or add
 
 ```
-"izisoft/yii2-geoip": "~2.0.0"
+"dpodium/yii2-geoip": "~2.0.0"
 ```
 
 to the require section of your `composer.json` file.
@@ -37,7 +37,7 @@ return [
     'components' => [
     ...
         'geoip' => [
-                   'class' => 'izi\geoip\components\CGeoIP',
+                   'class' => 'dpodium\yii2\geoip\components\CGeoIP',
                ],
         ...
     ],
@@ -45,7 +45,7 @@ return [
 ];
 ```
 
-If querying full City data is required, yii2-geoip-city-db must be required as well, see [izisoft/yii2-geoip-city-db](https://github.com/izisoft/yii2-geoip-city-db).
+If querying full City data is required, yii2-geoip-city-db must be required as well, see [dpodium/yii2-geoip-city-db](https://github.com/dpodium/yii2-geoip-city-db).
 
 For more information on the data availability, see below.
 
