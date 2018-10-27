@@ -1,14 +1,14 @@
 {
-    "name": "dpodium/yii2-geoip",
+    "name": "izisoft/yii2-geoip",
     "description": "Yii2 Component to allow for easy usage of the MaxMind Free dbs.",
     "type": "yii2-extension",
     "keywords": ["yii2","extension","geoip","maxmind"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Sionghuat Chng",
-            "email": "sionghuat.chng@dpodium.com",
-            "homepage": "http://www.dpodium.com"
+            "name": "A Tin",
+            "email": "zinzinx8@gmail.com",
+            "homepage": "https://iziweb.net"
         }
     ],
     "minimum-stability": "stable",
